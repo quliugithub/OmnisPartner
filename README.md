@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Omnis Partner – FastAPI Port
 
 This directory contains the Python 3.10 / FastAPI rewrite scaffold for the legacy Spring Boot service. The goal is to mirror the runtime wiring (`OmnisPartnerApplication`) so features can be migrated incrementally.
@@ -83,3 +84,6 @@ Example JSON payload:
 - Persistence (MyBatis, Redis, Oracle) and messaging clients are not yet implemented.
 - Zabbix/JSON push endpoints return structured JSON instead of the `"[SUCCESS]"` strings; adjust clients if they expect the legacy text format.
 - The slave sync/resend/repeat loops run but only log actions until external services are wired in.
+=======
+# OmnisPartner
+>>>>>>> 8ef447aa5c04459b9fee130639ae480f41988419

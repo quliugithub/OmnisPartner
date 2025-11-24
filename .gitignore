@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.venv/
+venv/
+.envrc
+*.log
+.dockerignore
+Dockerfile.bak

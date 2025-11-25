@@ -60,10 +60,10 @@ class Settings(BaseSettings):
     database_url: Optional[str] = Field(None, env="DATABASE_URL")
 
     # Nexus repository configuration
-    nexus_base_url: str = Field("http://newnexus.cenboomh.com", env="NEXUS_BASE_URL")
+    nexus_base_url: str = Field("xxxx", env="NEXUS_BASE_URL")
     nexus_repository: str = Field("releases", env="NEXUS_REPOSITORY")
-    nexus_username: Optional[str] = Field("ampeng", env="NEXUS_USERNAME")
-    nexus_password: Optional[str] = Field("Cbh12345678!", env="NEXUS_PASSWORD")
+    nexus_username: Optional[str] = Field("xxx", env="NEXUS_USERNAME")
+    nexus_password: Optional[str] = Field("xxx", env="NEXUS_PASSWORD")
     nexus_download_dir: str = Field("D:/tmp/nexus", env="NEXUS_DOWNLOAD_DIR")
     deploy_replace_path: str = Field("D:/tmp/replace", env="DEPLOY_REPLACE_PATH")
 
